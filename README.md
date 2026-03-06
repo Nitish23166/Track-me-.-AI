@@ -15,7 +15,7 @@ Real-time student attention detection using **MediaPipe**, **YOLOv8**, and machi
 ```
 main.py                   # CLI entry point
 requirements.txt
-yolov8n.pt                # YOLOv8-nano weights
+yolov8n.pt                # (auto-downloaded by Ultralytics if not present)
 data/                     # Dataset images (Drowsy / Focused / Looking_away)
 features/                 # Extracted feature CSVs
 models/                   # Trained model pickles + evaluation plots
